@@ -1,0 +1,1 @@
+<view class="wrap data-v-b0bc1a98"><view class="signout data-v-b0bc1a98"><u-button vue-id="4c9ce4d2-1" custom-style="{{customStyle}}" shape="square" size="default" data-event-opts="{{[['^click',[['loginOut']]]]}}" bind:click="__e" class="data-v-b0bc1a98" bind:__l="__l" vue-slots="{{['default']}}">退出登录</u-button></view></view>

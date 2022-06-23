@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page.data-v-f7b46d94 {
+  background-color: #f3f3f3;
+}
+.wrap.data-v-f7b46d94 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.detailBox.data-v-f7b46d94 {
+  width: 95%;
+  margin: 20rpx auto;
+  padding: 0rpx 30rpx;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+}
+.detailBox .item.data-v-f7b46d94 {
+  width: 100%;
+  padding: 20rpx;
+  margin: 30rpx auto;
+  background-color: #f9fafe;
+  border-radius: 15rpx;
+  display: flex;
+  justify-content: flex-start;
+}
+.detailBox .item .label.data-v-f7b46d94 {
+  flex: 1;
+  font-size: 20rpx;
+  color: #888989;
+}
+.detailBox .item .value.data-v-f7b46d94 {
+  flex: 3;
+  font-size: 26rpx;
+}
+.detailBox .item .highlight.data-v-f7b46d94 {
+  font-weight: bold;
+  color: #33adff;
+}
+.detailBox .two.data-v-f7b46d94 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.detailBox .item2.data-v-f7b46d94 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.detailBox .item2 .label.data-v-f7b46d94 {
+  margin-left: 20rpx;
+  flex: 1;
+  font-size: 20rpx;
+  color: #888989;
+}
+.detailBox .item2 .value.data-v-f7b46d94 {
+  flex: 3;
+  font-size: 26rpx;
+  background-color: #f9fafe;
+  padding: 20rpx;
+  margin: 10rpx 0rpx 30rpx 0rpx;
+  border-radius: 15rpx;
+}
+.detailBox .item2 .highlight.data-v-f7b46d94 {
+  font-weight: bold;
+  color: #33adff;
+}
+.detailBox .remarks.data-v-f7b46d94 {
+  width: 100%;
+}
+.votelabel.data-v-f7b46d94 {
+  color: #909399;
+  font-size: 20rpx;
+  margin: 10rpx auto;
+}
+.voteBox.data-v-f7b46d94 {
+  width: 95%;
+  height: 100rpx;
+  margin: 10rpx auto;
+  display: flex;
+  justify-content: space-between;
+}
+.voteBox .btn.data-v-f7b46d94 {
+  width: 48%;
+}
+

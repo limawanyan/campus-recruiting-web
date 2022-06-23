@@ -1,0 +1,211 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "面经交流"
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/center/settings",
+			"style": {
+				"navigationBarTitleText": "设置中心"
+			}
+		},
+		{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/topic/index",
+			"style": {
+				"navigationBarTitleText": "面题交流",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/schedule/index",
+			"style": {
+				"navigationBarTitleText": "校招日程",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/salary/index",
+			"style": {
+				"navigationBarTitleText": "校招薪资",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/schedule/details",
+			"style": {
+				"navigationBarTitleText": "校园招聘日程",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/salary/details",
+			"style": {
+				"navigationBarTitleText": "爆料详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/details",
+			"style": {
+				"navigationBarTitleText": "面经交流贴",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/topic/details",
+			"style": {
+				"navigationBarTitleText": "面题交流贴",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/center/userinfo",
+			"style": {
+				"navigationBarTitleText": "个人主页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/center/news",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/center/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/center/release",
+			"style": {
+				"navigationBarTitleText": "我的发布",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/center/feedback",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/center/follow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/release",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分享面经",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/topic/release",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "面题爆料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/salary/release",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "校园招聘信息交流平台",
+		"navigationBarBackgroundColor": "#33ADFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/index.png",
+				"selectedIconPath": "static/icon/index-a.png",
+				"text": "面经"
+			}, {
+				"pagePath": "pages/topic/index",
+				"iconPath": "static/icon/topic.png",
+				"selectedIconPath": "static/icon/topic-a.png",
+				"text": "面题"
+			},
+			{
+				"pagePath": "pages/schedule/index",
+				"iconPath": "static/icon/schedule.png",
+				"selectedIconPath": "static/icon/schedule-a.png",
+				"text": "日程"
+			},
+			{
+				"pagePath": "pages/salary/index",
+				"iconPath": "static/icon/salary.png",
+				"selectedIconPath": "static/icon/salary-a.png",
+				"text": "薪资"
+			},
+			{
+				"pagePath": "pages/center/index",
+				"iconPath": "static/icon/center.png",
+				"selectedIconPath": "static/icon/center-a.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "分享面经",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "c-editor": "/components/editor"
+  }
+}

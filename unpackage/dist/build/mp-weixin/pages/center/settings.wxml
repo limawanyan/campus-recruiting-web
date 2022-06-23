@@ -1,0 +1,1 @@
+<view class="wrap data-v-92d8ba6c"><view class="signout data-v-92d8ba6c"><u-button vue-id="4c9ce4d2-1" custom-style="{{customStyle}}" shape="square" size="default" class="data-v-92d8ba6c" bind:__l="__l" vue-slots="{{['default']}}">退出登录</u-button></view></view>

@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-color-picker": "/components/t-color-picker/t-color-picker",
+    "status-bar": "/components/c-ui/c-navbar",
+    "c-popup": "/components/c-ui/c-popup"
+  }
+}

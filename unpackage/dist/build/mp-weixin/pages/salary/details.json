@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "爆料详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

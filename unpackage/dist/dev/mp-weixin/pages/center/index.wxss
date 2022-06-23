@@ -1,0 +1,56 @@
+
+page {
+	background-color: #F3F3F3;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.wrap.data-v-0f3320de {
+  padding: 10rpx 10rpx;
+}
+.pupbox.data-v-0f3320de {
+  height: 320rpx;
+  background-color: #84E7B9;
+}
+.pupbox .box-icon.data-v-0f3320de {
+  padding: 60rpx 30rpx 10rpx;
+}
+.camera.data-v-0f3320de {
+  width: 54px;
+  height: 44px;
+}
+.camera.data-v-0f3320de:active {
+  background-color: #ededed;
+}
+.user-box.data-v-0f3320de {
+  background-color: #f3f3f3;
+}
+.class-none.data-v-0f3320de {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  outline: none;
+}
+.class-none.data-v-0f3320de::after {
+  outline: none;
+  border: none;
+}
+.red.data-v-0f3320de {
+  color: #FF0F00;
+}
+.userHead.data-v-0f3320de {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.gerenzhuye.data-v-0f3320de {
+  border-radius: 50px;
+  padding: 5rpx 20rpx;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 26rpx;
+}
+

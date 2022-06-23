@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "面题交流",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-tabs-swiper": "/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

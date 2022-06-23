@@ -1,0 +1,110 @@
+
+page {
+	background-color: #f3f3f3;
+	height: 100%;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.wrap.data-v-60c34e8a {
+  display: flex;
+  flex-direction: column;
+}
+.top_photo.data-v-60c34e8a {
+  width: 100%;
+  height: 200rpx;
+  object-fit: cover;
+}
+.info_box.data-v-60c34e8a {
+  padding: 10rpx 30rpx;
+  background-color: #FFFFFF;
+  border-radius: 25rpx 25rpx 0rpx 0rpx;
+  margin-top: -20rpx;
+}
+.top.data-v-60c34e8a {
+  width: 100%;
+  margin-bottom: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.top .companyLogo.data-v-60c34e8a {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-top: -40rpx;
+}
+.top .top_center.data-v-60c34e8a {
+  flex: 1;
+}
+.top .follow.data-v-60c34e8a {
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  width: 100rpx;
+  height: 50rpx;
+  font-size: 20rpx;
+  color: white;
+  background-color: #19be6b;
+}
+.middle.data-v-60c34e8a {
+  display: flex;
+  flex-direction: column;
+}
+.middle .nikeName.data-v-60c34e8a {
+  font-weight: bold;
+}
+.middle .tags.data-v-60c34e8a {
+  margin-top: 10rpx;
+}
+.middle .tags .tag.data-v-60c34e8a {
+  background-color: #F3F3F3;
+  margin-bottom: 20rpx;
+  padding: 10rpx 15rpx;
+  margin-right: 15rpx;
+  border-radius: 10rpx;
+  font-size: 20rpx;
+  color: #82848A;
+}
+.middle .fans_follow.data-v-60c34e8a {
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  display: flex;
+  flex-direction: row;
+  font-size: 20rpx;
+}
+.middle .fans_follow view.data-v-60c34e8a {
+  margin-right: 30rpx;
+  color: #82848A;
+}
+.middle .fans_follow view text.data-v-60c34e8a {
+  color: #000000;
+  margin: 0rpx 10rpx;
+  font-weight: bold;
+}
+.middle .autograph.data-v-60c34e8a {
+  margin-top: 30rpx;
+  font-size: 26rpx;
+  color: #82848A;
+}
+.middle .line.data-v-60c34e8a {
+  margin-top: 30rpx;
+  border: 0.1rpx solid #F3F3F3;
+}
+.swiper-box.data-v-60c34e8a {
+  border-color: #F3F3F3;
+  height: 1000rpx;
+}
+.center.data-v-60c34e8a {
+  text-align: center;
+  font-size: 30rpx;
+  padding: 10%;
+}
+.center image.data-v-60c34e8a {
+  width: 250rpx;
+  height: 250rpx;
+  margin-bottom: 20rpx;
+}
+

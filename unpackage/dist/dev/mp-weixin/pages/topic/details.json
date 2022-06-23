@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "面题交流贴",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "mp-html": "/uni_modules/mp-html/components/mp-html/mp-html",
+    "comment": "/components/comment/comment",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

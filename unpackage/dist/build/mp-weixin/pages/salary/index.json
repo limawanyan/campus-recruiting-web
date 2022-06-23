@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "校招薪资",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-row": "/uview-ui/components/u-row/u-row",
+    "u-dropdown": "/uview-ui/components/u-dropdown/u-dropdown",
+    "u-dropdown-item": "/uview-ui/components/u-dropdown-item/u-dropdown-item",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

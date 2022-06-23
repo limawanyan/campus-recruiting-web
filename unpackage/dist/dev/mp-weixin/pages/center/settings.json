@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "设置中心",
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

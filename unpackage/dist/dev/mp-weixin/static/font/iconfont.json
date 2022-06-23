@@ -1,0 +1,30 @@
+{
+  "id": "2929260",
+  "name": "CampusRecruiting",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3875044",
+      "name": "通知",
+      "font_class": "tongzhi",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "7727117",
+      "name": "1加号",
+      "font_class": "jiahao",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "9132016",
+      "name": "通知",
+      "font_class": "tongzhi1",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+
+page {
+	height: 100%;
+	background-color: #f3f3f3;
+}
+
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.centre.data-v-2b178de4 {
+  text-align: center;
+  padding: 50% 32rpx;
+  font-size: 30rpx;
+}
+.centre image.data-v-2b178de4 {
+  width: 250rpx;
+  height: 250rpx;
+  margin-bottom: 20rpx;
+}
+.wrap.data-v-2b178de4 {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 0px);
+  width: 100%;
+}
+.swiper-box.data-v-2b178de4 {
+  flex: 1;
+}
+.swiper-item.data-v-2b178de4 {
+  height: 100%;
+}
+

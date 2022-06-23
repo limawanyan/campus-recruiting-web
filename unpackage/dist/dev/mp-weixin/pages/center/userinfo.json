@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "个人主页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-tabs-swiper": "/uview-ui/components/u-tabs-swiper/u-tabs-swiper"
+  }
+}

@@ -1,0 +1,80 @@
+
+page {
+	background-color: #f3f3f3;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.wrap.data-v-ae304274 {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.top.data-v-ae304274 {
+  width: 100%;
+  height: 200rpx;
+  padding: 60rpx 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #33adff;
+}
+.choose-menu.data-v-ae304274 {
+  height: 80rpx;
+  display: block;
+  background-color: #FFFFFF;
+}
+.info.data-v-ae304274 {
+  width: 90%;
+  height: 250rpx;
+  margin: 30rpx auto;
+  padding: 20rpx;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.info .one.data-v-ae304274 {
+  display: flex;
+  margin: 20rpx 0rpx;
+}
+.info .one .campany.data-v-ae304274 {
+  flex: 1;
+  font-size: 30rpx;
+  font-weight: bold;
+  order: 1;
+}
+.info .one .reliability.data-v-ae304274 {
+  order: 3;
+}
+.info .one .education.data-v-ae304274 {
+  order: 2;
+  margin-right: 10rpx;
+}
+.info .two.data-v-ae304274 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10rpx 0rpx;
+}
+.info .two .post.data-v-ae304274 {
+  font-size: 26rpx;
+  font-weight: bold;
+}
+.info .two .salary.data-v-ae304274 {
+  font-size: 30rpx;
+  color: red;
+}
+.info .three.data-v-ae304274 {
+  display: flex;
+  margin-top: 20rpx;
+}
+.info .three .time.data-v-ae304274 {
+  flex: 1;
+  margin-left: 30rpx;
+}
+

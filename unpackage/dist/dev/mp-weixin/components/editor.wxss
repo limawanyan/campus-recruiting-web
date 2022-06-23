@@ -1,0 +1,104 @@
+
+.keywordOrFunction-box.data-v-5db2b830 {
+	position: fixed;
+	height: 100rpx;
+	z-index: 10000;
+}
+.hr.data-v-5db2b830 {
+	width: 750rpx;
+	height: 20rpx;
+	background: rgba(245, 245, 250, 1);
+}
+.hr-710.data-v-5db2b830 {
+	width: 710rpx;
+	height: 1px;
+	background: rgba(245, 245, 250, 1);
+}
+.popupContent.data-v-5db2b830 {
+	width: 750rpx;
+	height: 750rpx;
+	background-color: #FFFFFF;
+}
+.titleMenu.data-v-5db2b830 {
+	height: 90rpx;
+}
+.fontSyle.data-v-5db2b830 {
+	height: 250rpx;
+}
+.fontSize.data-v-5db2b830 {
+	width: 180rpx;
+	height: 180rpx;
+	border: 1rpx solid rgba(204, 204, 204, 1);
+	border-radius: 6rpx;
+}
+.fontFamily.data-v-5db2b830 {
+	width: 470rpx;
+	height: 80rpx;
+	border: 1rpx solid rgba(204, 204, 204, 1);
+	border-radius: 6rpx;
+}
+.divider.data-v-5db2b830 {
+	width: 1rpx;
+	height: 20rpx;
+	background: rgba(204, 204, 204, 1);
+}
+.fontFamily-right.data-v-5db2b830,
+.fontFamily-left.data-v-5db2b830 {
+	height: 80rpx;
+	background: rgba(255, 255, 255, 1);
+	border: 1rpx solid rgba(204, 204, 204, 1);
+	border-radius: 6rpx;
+}
+.fontFamily-left.data-v-5db2b830 {
+	width: 570rpx;
+}
+.fontFamily-right.data-v-5db2b830 {
+	width: 80rpx;
+}
+.fontColor-box.data-v-5db2b830 {
+	width: 670rpx;
+	height: 80rpx;
+	background: rgba(255, 255, 255, 1);
+	border: 1rpx solid rgba(204, 204, 204, 1);
+	border-radius: 6rpx;
+}
+.fColor.data-v-5db2b830 {
+	width: 50rpx;
+	height: 50rpx;
+	border-radius: 50%;
+}
+.bgColor.data-v-5db2b830 {
+	width: 50rpx;
+	height: 50rpx;
+}
+.align-box-right.data-v-5db2b830,
+.align-box-left.data-v-5db2b830 {
+	height: 80rpx;
+	background: rgba(255, 255, 255, 1);
+	border: 1rpx solid rgba(204, 204, 204, 1);
+	border-radius: 6rpx;
+}
+.align-box-left.data-v-5db2b830 {
+	width: 436rpx;
+}
+.align-box-right.data-v-5db2b830 {
+	width: 210rpx;
+}
+.mask.data-v-5db2b830 {
+	background-color: rgba(0, 0, 0, 0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+}
+.float-btn-box.data-v-5db2b830 {
+	width: 150rpx;
+	height: 150rpx;
+	background-image: linear-gradient(to top, #59C65D, #65E16A);
+	position: fixed;
+	right: 40rpx;
+	bottom: 130rpx;
+}
+

@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.showloading.data-v-41bb1048 {
+  position: fixed;
+  text-align: center;
+  transition: .3s;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.showloading .load.data-v-41bb1048 {
+  opacity: 1;
+  transition: .3s;
+  top: 0;
+}
+.showloading .loadtext.data-v-41bb1048 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showloading .loadtext .text.data-v-41bb1048 {
+  font-size: 28rpx;
+  opacity: .5;
+}
+.showloading .loadicon.data-v-41bb1048 {
+  width: 100rpx;
+  height: 100rpx;
+  -webkit-animation: turn-data-v-41bb1048 .4s linear infinite;
+          animation: turn-data-v-41bb1048 .4s linear infinite;
+  position: relative;
+  z-index: 10;
+  opacity: .6;
+}
+.showloading .loadicon.data-v-41bb1048::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border-width: 10rpx;
+  border-style: solid;
+  width: 80rpx;
+  height: 80rpx;
+  -webkit-transform: scale(-0.7);
+          transform: scale(-0.7);
+  left: 0rpx;
+  top: 0rpx;
+  z-index: 5;
+}
+@-webkit-keyframes turn-data-v-41bb1048 {
+0% {
+    -webkit-transform: rotate(0deg);
+}
+25% {
+    -webkit-transform: rotate(90deg);
+}
+50% {
+    -webkit-transform: rotate(180deg);
+}
+75% {
+    -webkit-transform: rotate(270deg);
+}
+100% {
+    -webkit-transform: rotate(1turn);
+}
+}
+@keyframes turn-data-v-41bb1048 {
+0% {
+    -webkit-transform: rotate(0deg);
+}
+25% {
+    -webkit-transform: rotate(90deg);
+}
+50% {
+    -webkit-transform: rotate(180deg);
+}
+75% {
+    -webkit-transform: rotate(270deg);
+}
+100% {
+    -webkit-transform: rotate(1turn);
+}
+}
+.topic-detail.data-v-41bb1048 {
+  margin-bottom: 10rpx;
+  border-bottom: 10rpx solid #f9f9f9;
+  padding: 20rpx 20rpx;
+}
+.comment-submit.data-v-41bb1048 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 130rpx;
+  padding: 24rpx 18rpx 46rpx 24rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0 2px 10px 0 rgba(155, 161, 168, 0.3);
+  z-index: 99;
+}
+.comment-submit .comment-submit-btn.data-v-41bb1048 {
+  max-width: 384rpx;
+  min-width: 384rpx;
+  height: 80rpx;
+  background: rgba(187, 194, 202, 0.2);
+  border-radius: 40rpx;
+  padding: 18rpx 30rpx 17rpx;
+  box-sizing: border-box;
+  font-size: 32rpx;
+  color: rgba(47, 47, 47, 0.5);
+}
+.comment-dialog.data-v-41bb1048 {
+  position: fixed;
+  flex-direction: column;
+}
+.is-show.data-v-41bb1048 {
+  display: flex;
+}
+.is-hide.data-v-41bb1048 {
+  display: none;
+}
+.comment-submit-icon.data-v-41bb1048,
+.comment-submit-right.data-v-41bb1048 {
+  display: flex;
+}
+.comment-submit-icon.data-v-41bb1048 {
+  flex-direction: column;
+  align-items: center;
+  width: 96rpx;
+  height: 96rpx;
+  margin-right: 6rpx;
+}
+.comment-submit-icon.data-v-41bb1048:last-child {
+  margin-right: 0;
+}
+.comment-submit-icon .comment-submit-image.data-v-41bb1048 {
+  display: inline-block;
+  width: 36rpx;
+  height: 36rpx;
+  margin-top: 11rpx;
+}
+.comment-submit-icon .comment-zan-2.data-v-41bb1048 {
+  background: url(https://s.ampmake.com/www/image/wx/community-comment/community-icon-zan-2.png) no-repeat bottom;
+  background-size: 36rpx 36rpx;
+}
+.comment-submit-icon .comment-zan-active-2.data-v-41bb1048 {
+  background: url(https://s.ampmake.com/www/image/wx/community-comment/community-icon-zan-active-2.png) no-repeat bottom;
+  background-size: 36rpx 36rpx;
+}
+.comment-submit-icon .comment-star.data-v-41bb1048 {
+  background: url(https://s.ampmake.com/www/image/wx/community-comment/community-icon-star.png) no-repeat bottom;
+  background-size: 36rpx 36rpx;
+}
+.comment-submit-icon .comment-nostar-active.data-v-41bb1048 {
+  background: url(https://s.ampmake.com/www/image/wx/community-comment/community-icon-nostar-active.png) no-repeat bottom;
+  background-size: 36rpx 36rpx;
+}
+.comment-submit-icon .comment-comment.data-v-41bb1048 {
+  background: url(https://s.ampmake.com/www/image/wx/community-comment/community-icon-comment.png) no-repeat bottom;
+  background-size: 36rpx 36rpx;
+}
+.comment-submit-icon view.data-v-41bb1048 {
+  margin-top: 6rpx;
+  font-size: 24rpx;
+  color: #6c788e;
+  line-height: 33rpx;
+}
+.container.data-v-41bb1048 {
+  height: 600rpx;
+  overflow: hidden;
+  position: relative;
+}
+.subScribeButton.data-v-41bb1048 {
+  text-align: center;
+  margin: 30rpx 120rpx;
+}
+.subScribeButton button.data-v-41bb1048 {
+  font-size: 28rpx;
+  background-color: #39b54a;
+  color: #fff;
+}
+.textareacontent.data-v-41bb1048 {
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+  background-color: #fff;
+  z-index: 10;
+}
+.textareacontent .textheaders.data-v-41bb1048 {
+  width: 100%;
+  height: 96rpx;
+  border-bottom: 1rpx solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+}
+.textareacontent .textheaders .cancel.data-v-41bb1048 {
+  color: #333;
+  font-size: 32rpx;
+  line-height: 96rpx;
+  margin-left: 32rpx;
+}
+.textareacontent .textheaders .publish.data-v-41bb1048 {
+  color: #3ec382;
+  font-size: 32rpx;
+  line-height: 96rpx;
+  margin-right: 32rpx;
+}
+.textareacontent .textareaBox.data-v-41bb1048 {
+  height: 360rpx;
+  position: relative;
+}
+.textareacontent .textareaBox .textCount.data-v-41bb1048 {
+  position: absolute;
+  font-size: 26rpx;
+  color: #999;
+  right: 32rpx;
+  top: 4rpx;
+}
+.textareacontent .textareaBox .textareaInput.data-v-41bb1048 {
+  margin: 30rpx;
+}
+.adview.data-v-41bb1048 {
+  position: relative;
+  padding: 30rpx;
+}
+.adview .adtext.data-v-41bb1048 {
+  position: absolute;
+  top: 10rpx;
+  right: 20rpx;
+  padding: 5rpx 20rpx;
+  background: #333;
+  color: #fff;
+  font-size: 24rpx;
+}
+.adview image.data-v-41bb1048 {
+  width: 690rpx;
+  height: 200rpx;
+}
+.title.data-v-41bb1048 {
+  margin: 10rpx 20rpx 20rpx 0rpx;
+  font-weight: bold;
+}
+.userInfo.data-v-41bb1048 {
+  display: flex;
+  flex-direction: row;
+}
+.userInfo .follow_btn.data-v-41bb1048 {
+  margin-right: 30rpx;
+}
+.userInfo .center.data-v-41bb1048 {
+  padding: 5rpx 10rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.userInfo .center .userName.data-v-41bb1048 {
+  font-size: 26rpx;
+  font-weight: bold;
+}
+.userInfo .center .userTag.data-v-41bb1048 {
+  font-size: 20rpx;
+  color: #82848A;
+}
+.userInfo .center .userTag .grade.data-v-41bb1048 {
+  margin-left: 20rpx;
+}
+.content.data-v-41bb1048 {
+  margin-top: 20rpx;
+  font-size: 25rpx;
+}
+.content_bottom.data-v-41bb1048 {
+  margin: 20rpx 0rpx;
+}
+.content_bottom .releaseTime.data-v-41bb1048 {
+  font-size: 20rpx;
+  color: #606266;
+}
+
